@@ -1,0 +1,301 @@
+html{
+  box-sizing: border-box;
+}
+
+*:after, *:before{
+  box-sizing: inherit;
+}
+
+
+a{
+  color: #808080;
+}
+
+article{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3rem;
+
+}
+
+aside{
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  background: #ff5f5f;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  margin-top: -1.4rem;
+  font-family: 'Lato', sans-serif;
+}
+
+
+figcaption{
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+figure{
+  text-align: center
+}
+footer{
+  height: auto;
+  background: #ddd;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 25%;
+
+}
+main{
+  max-width: 100%;
+  padding-left: 25%;
+  text-align: center;
+}
+
+small{
+  text-align: left;
+  font-size: 19px;
+  display: block;
+  margin: 0;
+  margin-top: -.6rem;
+}
+
+/*
+* ESTILOS cOMENTARIOS
+*/
+form{
+  text-align: left;
+  padding-left: 1.2rem;
+  display: inline-block;
+}
+
+form > p > textarea{
+  max-width: 90%
+}
+input{
+  margin-bottom: 1.2em;
+}
+#submit{
+  background: #fff;
+  padding: .4rem;
+  color: #000;
+  border: none;
+  border-radius: 7px;
+  outline: 0;
+}
+.comment-reply-link{
+  float: left;
+  padding-bottom: 2rem;
+  text-align: left;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  width: 95%;
+  border-bottom: 2px solid #ddd;
+}
+#respond > h3{
+  margin-top: 7rem;
+}
+
+.comments{
+  border-radius: 15px;
+  color: #000;
+  background: #ccc;
+  max-width: 800px;
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  margin-left: 25%;
+}
+.comments > a{
+  color: #000;
+}
+.comment-meta ~ p{
+  text-align: left;
+  margin: 3rem 1rem 0 1rem;
+}
+.comment-author{
+  float: left;
+  padding-left: 1rem;
+}
+.date ~ li{
+  display: inline-block;
+  padding: 0 .4rem;
+}
+.date ~ li > a{
+  color: #fff;
+}
+.fn, .says, .avatar, .comment-meta{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1.6rem;
+}
+
+/*
+* FIN ESTILOS FORMULARIO
+*/
+
+.aside-description{
+  max-width: 80%;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.apart{
+  float: left;
+}
+
+.avatar{
+  max-width: 200px;
+  border-radius: 15%;
+  border: 5px solid #fff;
+}
+
+.date{
+  text-align: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.excerpt{
+  font-size: 20px;
+  padding: 0 .9rem;
+}
+
+.hr{
+  border-bottom: 2px solid #808080;
+  padding-top: 3.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.seguir--leyendo{
+  font-size: 18px;
+  border: 2px solid #808080;
+  padding: 8px;
+  float: right;
+  text-decoration: none;
+  color: #808080;
+}
+
+
+.seguir--leyendo:hover{
+  transition: all .4s linear;
+  background: #ff5f5f;
+  color: #fff;
+}
+
+.title{
+  color: #808080:
+}
+.seguir--leyendo, .apart{
+  display: inline-block;
+}
+
+.text--footer{
+  font-size: 18px;
+
+}
+
+@media screen and (max-width: 1124px){
+  aside{
+    width: 30%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  figure{
+    padding-top: 2rem;
+  }
+  main{
+    width: 70%;
+    float: right;
+  }
+  .apart{
+    padding-left: 15px;
+  }
+  .seguir--leyendo{
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 999px){
+
+  aside{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+  figure{
+    max-width: 30%;
+    text-align: left;
+    padding: 2rem 0 0 2rem;
+    margin: 0;
+  }
+
+  footer{
+    padding: 0 1rem;
+  }
+
+  .aside-description{
+    max-width: 65%;
+    padding-left: 2rem;
+    text-align: left;
+  }
+
+  .caja--header{
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .comments{
+    margin-left: 0%;
+  }
+
+  figure, .aside-description{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 2rem;
+  }
+
+  main{
+    padding-left: 0;
+    width: 100%;
+    float: none;
+  }
+
+
+}
+
+
+@media screen and (max-width: 830px){
+  .aside-description{
+    max-width: 60%;
+  }
+}
+
+
+@media screen and (max-width: 720px){
+
+figure{
+  max-width: 90%;
+  padding: 2rem 0 0 0;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.aside-description{
+  display: none;
+}
+
+}
