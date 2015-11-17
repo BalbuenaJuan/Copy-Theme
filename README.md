@@ -1,3 +1,3 @@
 # Copy-Theme 
 ***
-A smart and minimal theme for wordpress.
+A smart and minimalist theme for wordpress.
